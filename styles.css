@@ -1,0 +1,108 @@
+/*
+  NAME: Eli Kugelsky
+  DATE: 4/28/2023
+
+  Style for SET game. 
+ */
+
+body,
+button,
+select,
+input {
+  text-align: center;
+  font-size: 12pt;
+  font-family: Helvetica, Verdana, sans-serif;
+}
+
+main {
+  width: 80%;
+  margin: auto;
+}
+
+button,
+select {
+  padding: 8px;
+  background-color: white;
+  border: 2pt solid black;
+}
+
+h2 {
+  text-decoration: underline;
+  font-size: 16pt;
+}
+
+#start-btn {
+  width: 100px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+#menu-view > article {
+  background-color: #6f77ed;
+  border-radius: 0.35em;
+  border: 5pt solid black;
+  color: white;
+}
+
+#game-view > #details-bar {
+  display: flex;
+  background-color: black;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 0.5em 0.5em 0em 0em;
+}
+
+#game-view > #details-bar > p {
+  color: white;
+  font-size: 14pt;
+}
+
+.card {
+  width: 220px;
+  height: 95px;
+  border: 0.35em solid black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 1em;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.selected {
+  box-shadow: 6px 6px #636363;
+}
+
+.card img {
+  height: 85%;
+}
+
+#board {
+  display: flex;
+  justify-content: space-evenly;
+  border: 5pt solid black;
+  border-top-style: none;
+  flex-wrap: wrap;
+  padding: 20px;
+  align-items: center;
+}
+
+/* #back-btn,
+#start-btn {
+  cursor: pointer;
+} */
+
+.card p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 16pt;
+}
+
+.hide-imgs > img {
+  display: none;
+}
